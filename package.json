@@ -1,0 +1,12 @@
+{
+  "name": "forum.doxdox.org",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "dependencies": {
+    "linear": "1.0.2"
+  },
+  "private": true
+}
