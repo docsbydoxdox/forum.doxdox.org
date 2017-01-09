@@ -6,7 +6,13 @@
     "node": ">=6.0"
   },
   "dependencies": {
-    "linear": "1.0.2"
+    "linear": "1.0.3",
+    "node-sass": "4.2.0"
+  },
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "npm run build:css",
+    "build:css": "node-sass static/css/ -o static/css/"
   },
   "private": true
 }
