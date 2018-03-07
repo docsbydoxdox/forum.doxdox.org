@@ -6,7 +6,7 @@
     "node": ">=6.0"
   },
   "dependencies": {
-    "linear": "1.0.4",
+    "linear": "1.0.5",
     "node-sass": "4.2.0"
   },
   "scripts": {
